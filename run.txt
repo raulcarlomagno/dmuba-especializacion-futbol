@@ -1,0 +1,5 @@
+virtualenv .venv
+. .venv/bin/activate
+which python
+ipython kernel install --user --name=.venv
+jupyter notebook
